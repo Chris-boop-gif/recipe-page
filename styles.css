@@ -198,3 +198,49 @@ hr {
     margin-top: 32px;
     margin-bottom: 28px;
 }
+
+@media (max-width: 375px) {
+    html {
+        width: 375px;
+    }
+    body {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0px auto;
+        padding-top: 0;
+        padding-left: 0;
+        min-width: 320px; /* Ensure it fits small mobile screens */
+        max-width: 100%;
+        top: 0;
+        border-radius: 0;
+    }
+
+    main {
+        padding-left: 20px;
+    }
+
+    #bild {
+        width: 100vw;
+        height: 167px;
+        background-size: stretch;
+        margin: 0 ;
+        padding: 0 ;
+        top: 0;
+        border-radius: 0;
+    }
+
+    h1{
+        margin-left: 20px;
+        font-size: 35px;
+        margin-top: 40px;
+        line-height: 1.0;
+        margin-bottom: 26px;
+    }
+
+
+
+
+
+
+
+}
