@@ -1,0 +1,61 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "importFileExtension": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "prefabId": "0dff7616-6f1c-4eee-b92b-8aa7eb6a1737",
+            "id": "d55d5784-c871-48de-a6a0-e8e3199000cb",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "player",
+            "displayName": "Player",
+            "scope": "CLASS",
+            "x": 192,
+            "y": 220
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "6b5396f9-3bc1-4c8e-9179-d7eb26d18352",
+            "type": "Keyboard.Key",
+            "label": "upKey",
+            "keyCode": "W"
+        },
+        {
+            "id": "7b614d05-4a63-43dc-be79-28b24ba494c6",
+            "type": "Keyboard.Key",
+            "label": "downKey",
+            "keyCode": "S"
+        },
+        {
+            "id": "7bebdfbd-90e4-457b-9c1c-6fda88af6217",
+            "type": "Keyboard.Key",
+            "label": "leftKey",
+            "keyCode": "A"
+        },
+        {
+            "id": "574007ec-5e6c-46ff-938f-239a7f757bac",
+            "type": "Keyboard.Key",
+            "label": "rightKey",
+            "keyCode": "D"
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}
